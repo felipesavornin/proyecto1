@@ -1,3 +1,4 @@
+---
 applications: 
   - name: senpai_testing_app_fs_dev
     memory: 64M
