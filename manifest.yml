@@ -1,0 +1,16 @@
+applications: 
+  - name: senpai_testing_app_fs_dev
+    memory: 64M
+    instances: 1
+    env:
+      - API_KEY: 'placeholder'
+  - name: senpai_testing_app_fs_test
+    memory: 64M
+    instances: 1
+    env:
+      - API_KEY: 'placeholder'
+  - name: senpai_testing_app_fs_prod
+    memory: 256M
+    instances: 1
+    env:
+      - API_KEY: 'placeholder'
